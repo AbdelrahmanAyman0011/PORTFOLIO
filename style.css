@@ -7,7 +7,7 @@
   scroll-behavior: smooth;
 }
 header {
-  background-color: #c5c5c5;
+  background-color: #6fadff;
   width: 100%;
   position: fixed;
   z-index: 999;
@@ -128,4 +128,52 @@ section {
   font-size: 1.2em;
   font-weight: 700;
   margin: 10px;
+}
+.projects {
+  background-color: #6fadff;
+}
+.projects.content {
+  margin-top: 30px;
+}
+.project-card {
+  background-color: #ffffff;
+  border: 3px solid #ffffff;
+  min-height: 14em;
+  width: 23em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.8s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+  opacity: 0.9;
+}
+
+.project-image img {
+  width: 100%;
+}
+.project-info {
+  padding: 1em;
+}
+.project-category {
+  font-size: 0.8em;
+  color: #000000;
+}
+.project-title {
+  display: flex;
+  justify-content: baseline;
+  text-transform: uppercase;
+  font-weight: 800;
+
+  margin-top: 10px;
+}
+
+.more-details {
+  text-decoration: none;
+  color: blue;
 }
