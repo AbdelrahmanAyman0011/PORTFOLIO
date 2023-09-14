@@ -233,3 +233,21 @@ section {
   display: flex;
   justify-content: space-between;
 }
+.custom-button {
+  color: #ffffff;
+  background-color: rgb(4, 50, 150);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9376em 2.1975em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.9s ease;
+}
+
+.custom-button:hover {
+  background-color: rgb(1, 39, 121);
+  transform: scale(1.1);
+}
